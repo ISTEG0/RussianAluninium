@@ -1,0 +1,121 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.block-header {
+    height: 80px;
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    & > div:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    @media(max-width:919px) {
+        & > div {
+            margin-bottom: 15px;
+        }
+    }
+
+    .logo-header__link {
+        display: block;
+    }
+
+    .description-header {
+        max-width: 245px;
+
+        .description-header__text {
+            font-family: $font-manrope;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 150%;
+            letter-spacing: 0.02em;
+            color: #4E4E4E;
+        }
+    }
+
+    .call-header {
+
+        .call-header__link {
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 14px 25px;
+            background-color: #F3F7FA;
+            border-radius: 5px;
+
+            .call-header__icon {
+                height: 12px;
+                width: 12px;
+                margin-right: 9px;
+                .call-header__icon-img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .call-header__text {
+                font-family: $font-manrope;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 150%;
+                color: #62A1FF;
+            }
+
+        }
+    }
+
+    .email-header {
+        
+        .email-header__link-text {
+            font-family: $font-manrope;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 150%;
+            color: #62A1FF;
+            padding: 5px;
+        }
+    }
+
+    .work-time-header {
+
+        .work-time-header__time-text {
+            font-family: $font-manrope;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 150%;
+            letter-spacing: 0.025em;
+            color: rgba(255, 255, 255, 0.58);
+        }
+
+        .work-time-header__phone-text {
+            font-family: $font-manrope;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 150%;
+            color: #FFFFFF;
+        }
+    }
+}
+
+
+
+
+
+
+
+

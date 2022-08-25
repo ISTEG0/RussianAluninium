@@ -1,0 +1,17 @@
+//обнуление
+
+@import './reset/reset';
+
+//Шрифты
+@import './fonts/fonts.scss';
+
+//Ограничивающий контейнер
+@import './container/container.scss';
+
+//header
+@import './header/_header.scss';
+
+//main
+@import './main/_main.css';
+@import './main/_preview.scss';
+@import './main/_review.scss';

@@ -1,0 +1,86 @@
+.review {
+    min-height: 868px;
+    position: relative;
+    
+    .review__title {
+        font-family: $font-manrope;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 45px;
+        line-height: 129.5%;
+        color: #000000;
+        margin-bottom: 150px;
+    }
+
+    .review__content {
+        max-width: 620px;
+        margin-left: auto;
+        .review__content-text {
+            font-family: $font-manrope;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 168.5%;
+            letter-spacing: 0.015em;
+            color: #000000;
+            margin-bottom: 60px;
+        }
+    }
+
+    
+
+    .review__btn {
+        font-family: $font-manrope;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        align-items: center;
+        color: #62A1FF;
+        background-color: #F3F7FA;
+        border-radius: 5px;
+        padding: 9.5px 29px 9.5px 29px;
+
+        img {
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    }
+
+    .review__video {
+        position: absolute;
+        max-width: 575px;
+        max-height: 535px;
+        top: 250px;
+        left: 0;
+
+        video {
+            width: 100%;
+            height: 100%;
+            border-bottom-right-radius: 50px;
+            border-top-right-radius: 50px;
+        }
+
+
+        img {
+            position: absolute;
+            top: 215px;
+            left: 225px;
+            cursor: pointer;
+        }
+        
+    }
+
+    .review__img {
+        position: absolute;
+        right: 0;
+        bottom: -134PX;
+    }
+
+
+}
+
+.block {
+    background-color: #8b1616;
+    min-height: 500px;
+}

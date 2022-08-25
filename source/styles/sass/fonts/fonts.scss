@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+@font-face {
+	font-family: 'cannonade-bold';
+	src: url('../fonts/cannonade-bold.eot');
+	src: local('☺'), url('../fonts/cannonade-bold.woff') format('woff'), url('../fonts/cannonade-bold.ttf') format('truetype'), url('/../fonts/cannonade-bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+$font-manrope: 'Manrope', sans-serif;
+$font-montserrat: 'Montserrat', sans-serif;
+$font-connonade: 'cannonade-bold';
